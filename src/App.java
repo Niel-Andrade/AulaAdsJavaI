@@ -1,4 +1,10 @@
 import java.util.Date;
+
+import br.edu.ifpi.dominio.Aluno;
+import br.edu.ifpi.dominio.Certificado;
+import br.edu.ifpi.dominio.Curso;
+import br.edu.ifpi.dominio.Professor;
+
 import java.text.SimpleDateFormat;
 
 public class App {

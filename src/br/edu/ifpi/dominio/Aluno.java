@@ -1,3 +1,4 @@
+package br.edu.ifpi.dominio;
 import java.util.Date;
 
 public class Aluno {
