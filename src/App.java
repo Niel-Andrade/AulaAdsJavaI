@@ -28,15 +28,12 @@ public class App {
     
 
         Certificado certificado = new Certificado();
-        certificado.nomeDoAluno = "José Nataniel N Andrade da Silva";
-        certificado.dataDeNascimento = sdf.parse("29/05/2002");
-        certificado.nomeDocurso = "Análise e Desenvolvimento de Sistemas";
-        certificado.cargaHoraria = 2040;
-        certificado.modalidade = "Presencial";
-        certificado.nivel = "Superior";
-        certificado.dataDeInicio = sdf.parse("11/03/2020");
-        certificado.dataDeFim = sdf.parse("20/01/2025");
+        Aluno nomeDoAluno;
+        Aluno dataDeNascimento;
+        Curso nomeDocurso;
+        Curso cargaHoraria;
+        Curso dataDeFim;
         
-        System.out.format("O aluno %s, tem %s como professor, fez o curso de %s, \ncom carga horária de: %d Hrs, e teve inicio em  %s e foi concluido em %s.", aluno.nome, professor.nome, curso.nome, curso.cargaHoraria, sdf.format(certificado.dataDeInicio), sdf.format(certificado.dataDeFim));
+        System.out.format("O aluno %s, tem %s como professor, fez o curso de %s, \ncom carga horária de: %d Hrs, e teve inicio em  %s e foi concluido em %s.", aluno.nome, professor.nome, curso.nome, curso.cargaHoraria, sdf.format(curso.dataDeInicio), sdf.format(curso.dataDeFim));
     }
 }

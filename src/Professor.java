@@ -1,5 +1,5 @@
 public class Professor {
-    String nome;
-    String email;
-    String formacao;
+    public String nome;
+    public String email;
+    public String formacao;
 }

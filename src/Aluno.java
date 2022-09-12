@@ -1,7 +1,7 @@
 import java.util.Date;
 
 public class Aluno {
-    String nome;
-    Date dataDeNascismento;
-    String email;
+    public String nome;
+    public Date dataDeNascismento;
+    public String email;
 }

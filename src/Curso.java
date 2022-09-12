@@ -1,11 +1,12 @@
 import java.util.Date;
 
 public class Curso {
-    String nome;
-    int cargaHoraria;
-    String modalidade;
-    String nivel;
-    Date dataDeInicio;
-    Date dataDeFim;
-    boolean gratuito;
+    public String nome;
+    public int cargaHoraria;
+    public String modalidade;
+    public String nivel;
+    public Date dataDeInicio;
+    public Date dataDeFim;
+    public boolean gratuito;
+    public Professor professor;
 }
